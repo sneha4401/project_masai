@@ -1,27 +1,36 @@
-function leftScroll1() {
-    const leftCon = document.querySelector("#con-2a");
-    leftCon.scrollBy(-200, 0);
-}
-function rightScroll1() {
-    const rightCon = document.querySelector("#con-2a");
-    rightCon.scrollBy(200, 0);
-}
-function leftScroll2() {
-    const left = document.querySelector("#con-3a");
-    left.scrollBy(-200, 0);
-}
-function rightScroll2() {
-    const right = document.querySelector("#con-3a");
-    right.scrollBy(200, 0);
-}
-function addCart() {
+function myFunction() {
     alert("Added to Cart");
 }
-function leftScroll3() {
-    const leftBlog = document.querySelector("#con-5a")
+
+function leftScrollCat() {
+    const leftCat = document.querySelector("#categories_boxes");
+    leftCat.scrollBy(-200, 0);
+}
+function rightScrollCat() {
+    const rightCat = document.querySelector("#categories_boxes");
+    rightCat.scrollBy(200, 0);
+}
+function leftScroll() {
+    const left = document.querySelector("#featured_boxes");
+    left.scrollBy(-200, 0);
+}
+function rightScroll() {
+    const right = document.querySelector("#featured_boxes");
+    right.scrollBy(200, 0);
+}
+function leftScrollBlog() {
+    const leftBlog = document.querySelector("#blog_box")
     leftBlog.scrollBy(-200, 0);
 }
-function rightScroll3() {
-    const rightBlog = document.querySelector("#con-5a")
+function rightScrollBlog() {
+    const rightBlog = document.querySelector("#blog_box")
     rightBlog.scrollBy(200, 0);
+}
+function leftScrollOffer() {
+    const leftOffer = document.querySelector("#offers_boxes")
+    leftOffer.scrollBy(-200, 0);
+}
+function rightScrollOffer() {
+    const rightOffer = document.querySelector("#offers_boxes")
+    rightOffer.scrollBy(200, 0);
 }
