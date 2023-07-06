@@ -1,5 +1,5 @@
 function navbar(){
-    return  `<header>
+    return  ` <header>
     <div class="navbar">
         <div class="nav-1">
             <div class="con-1a">
@@ -19,7 +19,8 @@ function navbar(){
 
         <div class="nav-2">
             <div class="nav-2a">
-                 <img src="../rlogo.jpg" alt="logo">
+                <h1>AUTO PART</h1>
+                <h3>COMPANY LOGO</h3>
             </div>
             <div class="nav-2b">
                 <div class="con-2b1">
@@ -50,19 +51,13 @@ function navbar(){
             </ul>
           
             <ul>
-                <li><a href="">Interior</a>
-                    <ul>
-                        <li>Seats</li>
-                        <li>Floor Mats</li>
-                        <li>Steering Wheels</li>
-                        <li>Door Sills</li>
-                    </ul>
-                </ul>
-            </li>
+                <li><a href="">Interior</a></li>
+            </ul>
 
             <ul>
                 <li><a href="">Performence</a></li>
             </ul>
+            
             <ul>
                 <li><a href="">Wheels and Tires</a></li>
             </ul>

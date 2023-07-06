@@ -5,11 +5,513 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage</title>
     <link rel="stylesheet" href="../r_navbar/r_navbar.css">
+    <link rel="stylesheet" href="r_homepage.css">
+    <script src="r_homepage.js"></script>
     <script src="https://kit.fontawesome.com/0b1bcdd578.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="navbar_import"></div>
+
+    <div id="container">
+
+        <div id="con-1">
+            <div id="con-1a">
+                <div>
+                    <div>
+                        <p>SELECT YOUR VEHICLE</span></p>
+                        <p>Customize, Modify, Upgrade, <span class="txt_W">Repair, Replace</span></p>
+                    </div>
+                    <div>
+                        <select id="year">
+                            <option>1 Year</option>
+                            <option value="2020">2021</option>
+                            <option value="2021">2022</option>
+                            <option value="2022">2023</option>
+                        </select>
+        
+                        <select id="make">
+                            <option>2 Make</option>
+                            <option value="2020">2021</option>
+                            <option value="2021">2022</option>
+                            <option value="2022">2023</option>
+                        </select>
+        
+                        <select id="model">
+                            <option>3 Model</option>
+                            <option value="2020">2021</option>
+                            <option value="2021">2022</option>
+                            <option value="2022">2023</option>
+                        </select>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="con-2">
+            <div>
+                <div></div>
+                <div>
+                    <h2>BROWSE BY CATEGORIES</h2>
+                </div>
     
+                <div>
+                    <button onclick="leftScroll1()"><i class="fa-solid fa-angle-left fa-2xl" style="color: #0d0d0d;"></i></button>
+                    <button onclick="rightScroll1()"><i class="fa-solid fa-angle-right fa-2xl" style="color: #0f0f0f;"></i></button>
+                </div>
+            </div>
+    
+            <div id="con-2a">
+                <div>
+                    <div>
+                        <img src="https://cutewallpaper.org/24/sports-car-png/mclarenautomotive-orange-sports-car-convertible-hd-png-download--kindpng.png"
+                            alt="Exterior">
+                    </div>
+                    <p>Exterior</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://d11uj1evvj3iua.cloudfront.net/public/media/images/eba/a2d/df4/44d/300/300/eba2df44d43fa65d65477465a1cd7152.png?v=0.1.2"
+                            alt="Interior">
+                    </div>
+                    <p>Interior</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://servicarlevy.es/images/escape.png" alt="Performance">
+                    </div>
+                    <p>Performance</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://www.pngall.com/wp-content/uploads/8/Wheel-Tire-PNG-Free-Download.png"
+                            alt="Wheels & Tires">
+                    </div>
+                    <p>Wheels & Tires</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://static.wixstatic.com/media/a7a0c3_240813ac6f8a431d8d6fa3e96dcc4c78~mv2.jpg/v1/fill/w_426,h_414,al_c,lg_1,q_80,enc_auto/top-category-auto-body-parts-and-mirrors.jpg"
+                            alt="Body Parts">
+                    </div>
+                    <p>Body Parts</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://www.kindpng.com/picc/m/374-3748298_alternator-engine-car-vehicle-parts-part-spare-clipart.png"
+                            alt="Repair Parts">
+                    </div>
+                    <p>Repair Parts</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://www.nicepng.com/png/detail/386-3860458_pioneer-car-audio-png.png"
+                            alt="Electronics">
+                    </div>
+                    <p>Electronics</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://img.favpng.com/10/4/13/car-automobile-repair-shop-motor-vehicle-service-auto-mechanic-maintenance-png-favpng-esbzgyPpPu6QtkpkYaQMcRePW.jpg"
+                            alt="Tools & Garage">
+                    </div>
+                    <p>Tools & Garage</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://www.pngall.com/wp-content/uploads/8/Wheel-Tire-PNG-Free-Download.png"
+                            alt="Wheels & Tires">
+                    </div>
+                    <p>Wheels & Tires</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://static.wixstatic.com/media/a7a0c3_240813ac6f8a431d8d6fa3e96dcc4c78~mv2.jpg/v1/fill/w_426,h_414,al_c,lg_1,q_80,enc_auto/top-category-auto-body-parts-and-mirrors.jpg"
+                            alt="Body Parts">
+                    </div>
+                    <p>Body Parts</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="con-3">
+            <h2>FEATURED PRODUCTS</h2>
+            <button class="left" onclick="leftScroll2()"><i class="fa-solid fa-angle-left fa-2xl" style="color: #0d0d0d;"></i></button>
+            <div id="con-3a">
+                <div>
+                    <p>AIR LIFT 57268 LOADLIFTER 5000; LEAF SPRING LEVELING KIT</p>
+                    <a href="#">Learn More ></a>
+                    <div>
+                        <img src="https://i.postimg.cc/MprQrBd0/My-project.png" alt="Air">
+                    </div>
+                </div>
+                <div>
+                    <p>BANKS POWER RAM-AIR COLD-AIR INTAKE SYSTEM DRY FILTER 11-14 FORD F-150 3.5L ECOBOOST</p>
+                    <a href="#">Learn More ></a>
+                    <div>
+                        <img src="https://i.postimg.cc/BbHbSY9s/bankpower1.png" alt="bankPower">
+                    </div>
+                </div>
+                <div>
+                    <p>BANKS POWER RAM-AIR COLD-AIR INTAKE SYSTEM DRY FILTER 11-14 FORD F-150 3.5L ECOBOOST</p>
+                    <a href="#">Learn More ></a>
+                    <div>
+                        <img src="https://i.postimg.cc/BbHbSY9s/bankpower1.png" alt="bankPower">
+                    </div>
+                </div>
+                <div>
+                    <p>BANKS POWER RAM-AIR COLD-AIR INTAKE SYSTEM DRY FILTER 11-14 FORD F-150 3.5L ECOBOOST</p>
+                    <a href="#">Learn More ></a>
+                    <div>
+                        <img src="https://i.postimg.cc/BbHbSY9s/bankpower1.png" alt="bankPower">
+                    </div>
+                </div>
+                <div>
+                    <p>AIR LIFT 57268 LOADLIFTER 5000; LEAF SPRING LEVELING KIT</p>
+                    <a href="#">Learn More ></a>
+                    <div>
+                        <img src="https://i.postimg.cc/MprQrBd0/My-project.png" alt="Air">
+                    </div>
+                </div>
+            </div>
+            <button class="right" onclick="rightScroll2()"><i class="fa-solid fa-angle-right fa-2xl" style="color: #0f0f0f;"></i></button>
+        </div>
+        
+        <div id="con-4">
+        <h2>DEAL OF THE WEEK</h2>
+
+        <div id="con-4a">
+            <div>
+                <div>
+                    <img src="https://d11uj1evvj3iua.cloudfront.net/public/media/images/eba/a2d/df4/44d/300/300/eba2df44d43fa65d65477465a1cd7152.png?v=0.1.2"
+                        alt="Mat">
+                </div>
+                <p id="a">Floor - Mats</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://servicarlevy.es/images/escape.png" alt="Mat">
+                </div>
+                <p id="a">Exhaust Systems</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://www.pngall.com/wp-content/uploads/8/Wheel-Tire-PNG-Free-Download.png" alt="Mat">
+                </div>
+                <p id="a">Wheels and Tires</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/kgbhgwbg/p4.png" alt="Brakes & Rotors">
+                </div>
+                <p>Brakes & Rotors</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/xCf2mBvR/p5.png" alt="Air Intake system">
+                </div>
+                <p>Air Intake Systems</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/tCMWMj7s/p6.png" alt="bed Accessiors ">
+                </div>
+                <p>Bed Accessiors </p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/sD4DM9Cs/p7.png" alt="Mat">
+                </div>
+                <p>Body Kits</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/Wb88XCcK/p8.png" alt="Mat">
+                </div>
+                <p>Custom Grills</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/gcN4K1W7/p9.png" alt="Mat">
+                </div>
+                <p>Headlights</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/PxLVcjkK/p10.png" alt="Off Road Bumpers">
+                </div>
+                <p>Off Road Bumpers</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="https://www.indiandecars.com/img/sea-1-4.png" alt="Seat Covers">
+                </div>
+                <p>Seat Covers</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="https://w7.pngwing.com/pngs/230/253/png-transparent-shock-absorber-suspension-car-exhaust-system-harley-davidson-shock-absorber-exhaust-system-car-motorcycle.png"
+                        alt="Suspension Systems">
+                </div>
+                <p>Suspension Systems</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/xTH8QJRV/p12.png" alt="Mat">
+                </div>
+                <p>Custom Wheels</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/k4xY9yBt/p13.png" alt="Tail lights">
+                </div>
+                <p>Tail Lights</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span><i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="https://i.postimg.cc/q7QgFPGt/p15.png" alt="chrome trim">
+                </div>
+                <p>Chrome Trim</p>
+                <p>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <i class="fa-solid fa-star fivestar"></i>
+                    <span>124</span>
+                </p>
+                <p>$110</p>
+                <button onclick="addCart()">Add to Cart <span></i class="fa-solid fa-cart-shopping"></i></span></button>
+            </div>
+         </div>
+        </div>
+        
+        <div id="con-5">
+            <div id="back"></div>
+            <div>
+                <h2>OUR BLOG</h2>
+                <button class="left" onclick="leftScroll3()"><i class="fa-solid fa-angle-left fa-2xl" style="color: #0d0d0d;"></i></i></button>
+                <div id="con-5a">
+                    <div>
+                        <div>
+                            <img src="https://i.postimg.cc/jdYdYb5W/b1.jpg" alt="car">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Exterior</p>
+                                <p>14 Dec</p>
+                            </div>
+                            <h4>Top Ford Ranger Products For Fail</h4>
+                            <a href="#">Learn More ></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://i.postimg.cc/bw53J85P/b2.jpg" alt="tires">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Wheels and Tires</p>
+                                <p>14 Dec</p>
+                            </div>
+                            <h4>Headlight options for 2018 - 2020 F150s</h4>
+                            <a href="#">Learn More ></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://i.postimg.cc/SQ55ZBqJ/b3.jpg" alt="car">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Exterior</p>
+                                <p>14 Dec</p>
+                            </div>
+                            <h4>Top Ford Ranger Products For Fail</h4>
+                            <a href="#">Learn More ></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://i.postimg.cc/jdYdYb5W/b1.jpg" alt="car">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Exterior</p>
+                                <p>14 Dec</p>
+                            </div>
+                            <h4>Top Ford Ranger Products For Fail</h4>
+                            <a href="#">Learn More ></a>
+                        </div>
+                    </div>
+                </div>
+                <button class="right" onclick="rightScroll3()"><i class="fa-solid fa-angle-right fa-2xl" style="color: #0f0f0f;"></i></button>
+            </div>
+        </div>
+    
+    </div>
 </body>
 </html>
 <script type="module">
